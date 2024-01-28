@@ -3,6 +3,7 @@
     <head>
         <title>Unit conversions</title>
         <link rel="stylesheet" href="./style.css">
+        <script src="script.js"></script>
     </head>
     <body>
 
@@ -38,12 +39,12 @@
                             <!-- the fields and button for temperature input will come here -->
 
                             <label for="Temperature"> Celsius </label> <br/>
-                            <input type="number" id="c"> <br/>
+                            <input type="number" id="celsius"> <br/>
 
                             <!-- Conversion button -->
-                            <button id="temperature"> Convert </button> <br/>
+                            <button id="temperature" onclick="temperature()"> Convert </button> <br/>
 
-                            <input type="number" id="f"> <br/> 
+                            <input type="number" id="fahrenheit"> <br/> 
                             <label for="Temperature"> Fahrenheit </label> <br/>
                         </fieldset>
                     </article>
